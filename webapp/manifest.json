@@ -14,7 +14,6 @@
 			"version": "1.40.12"
 		}
 	},
-
 	"sap.ui": {
 		"technology": "UI5",
 		"icons": {
@@ -31,7 +30,6 @@
 			"phone": true
 		}
 	},
-
 	"sap.ui5": {
 		"flexEnabled": false,
 		"rootView": {
@@ -61,11 +59,14 @@
 			}
 		},
 		"resources": {
-			"css": [{
-				"uri": "css/style.css"
-			}, {
-				"uri": "control/DVStatus.css"
-			}]
+			"css": [
+				{
+					"uri": "css/style.css"
+				},
+				{
+					"uri": "control/DVStatus.css"
+				}
+			]
 		},
 		"routing": {
 			"config": {
@@ -77,19 +78,30 @@
 				"controlId": "app",
 				"clearControlAggregation": false
 			},
-			"routes": [{
-				"name": "RouteMain",
-				"pattern": "RouteMain",
-				"target": ["TargetMain"]
-			},{
-				"name": "listRoute",
-				"pattern": "",
-				"target": ["List"]
-			},{
-				"name": "userDetailRoute",
-				"pattern": "userDetail/{code}",
-				"target": ["UserDetail"]
-			}],
+			"routes": [
+				{
+					"name": "RouteMain",
+					"pattern": "RouteMain",
+					"target": [
+						"TargetMain"
+					]
+				},
+				{
+					"name": "listRoute",
+					"pattern": "",
+					"target": [
+						"List" 
+					]
+				},
+				{
+					"name": "userDetailRoute",
+					"pattern": "userDetail/{code}",
+					"target": [
+						"UserDetail"
+					]
+					
+				}
+			],
 			"targets": {
 				"TargetMain": {
 					"viewType": "XML",
@@ -98,16 +110,15 @@
 					"viewId": "Main",
 					"viewName": "Main"
 				},
-				"List":{
-					"viewType": "XML",
-					"transition":"slide",
-					"clearControlAggregation": false,
-					"viewName": "UserList"
-				},
-				"UserDetail":{
+				"List": {
 					"viewType": "XML",
 					"transition": "slide",
 					"clearControlAggregation": false,
+					"viewName": "UserList"
+				},
+				"UserDetail": {
+					"viewType": "XML",
+					"transition": "slide",
 					"viewName": "UserDetail"
 				}
 			}

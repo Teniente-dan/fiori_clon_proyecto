@@ -8,6 +8,7 @@
 	xmlns="sap.m">
 	<Shell id="shell">
 		<App id="app">
+			<!--<Text text="main"></Text>-->
 		</App>
 	</Shell>
 </mvc:View>

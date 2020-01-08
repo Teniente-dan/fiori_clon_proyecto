@@ -1,0 +1,15 @@
+<mvc:View xmlns:core="sap.ui.core" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns="sap.m" 
+	controllerName="com.dudev.ProjectManagement.controller.prueba"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Title">
+				<content>
+					<Text text="New view"></Text>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
