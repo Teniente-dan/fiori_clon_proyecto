@@ -65,7 +65,7 @@ sap.ui.define([
 		 	var oObject = oEvent.getSource().getBindingContext().getObject();
 		 	var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
 		 	// oRouter.navTo("userDetailRoute",{code: oObject.Code});
-		 	oRouter.navTo("pruebaMulti");
+		 	oRouter.navTo("pruebaMulti",{code: oObject.Code});
 		}
 	});
 });

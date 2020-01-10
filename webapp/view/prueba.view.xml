@@ -12,13 +12,4 @@
 					<!--<Text text="New view"></Text>-->
 				</content>
 			</Page>
-			<!--<Page title="MultiBase"-->
-			<!--	  id="PruebaParent1"-->
-			<!--	  showNavButton="true"-->
-			<!--      navButtonPress=".onNavBack"-->
-			<!--	class="sapUiResponsiveContentPadding">-->
-			<!--	<content>-->
-					<!--<Text text="New view"></Text>-->
-			<!--	</content>-->
-			<!--</Page>-->
 </mvc:View>

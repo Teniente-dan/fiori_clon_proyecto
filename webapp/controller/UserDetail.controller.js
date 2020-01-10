@@ -9,7 +9,8 @@ sap.ui.define([
 		
 		onInit: function(){
 			var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-			oRouter.getRoute("userDetailRoute").attachPatternMatched(this.onPageLoaded, this);
+			// oRouter.getRoute("userDetailRoute").attachPatternMatched(this.onPageLoaded, this);
+			oRouter.getRoute("pruebaMulti").attachPatternMatched(this.onPageLoaded, this);
 		},
 		
 		onPageLoaded: function(oEvent){

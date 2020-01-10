@@ -4,7 +4,7 @@
 	xmlns:m="sap.m"
 	xmlns:l="sap.ui.layout"
 	xmlns="sap.uxap">
-	<m:Page showHeader="true" title="{i18n>appTitle}" showNavButton="true" navButtonPress="onBack">
+	<!--<m:Page showHeader="true" title="{i18n>appTitle}" showNavButton="true" navButtonPress="onBack">-->
 		<ObjectPageLayout showTitleInHeaderContent="true">
 			<headerTitle>
 				<ObjectPageHeader 
@@ -62,6 +62,6 @@
 				</ObjectPageSection>
 			</sections>
 		</ObjectPageLayout>
-	</m:Page>
+	<!--</m:Page>-->
 	
 </core:View>

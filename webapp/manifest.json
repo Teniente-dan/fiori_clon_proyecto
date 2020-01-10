@@ -102,7 +102,7 @@
 				},
 				{
 					"name": "pruebaMulti",
-					"pattern": "prueba/multiview",
+					"pattern": "prueba/multiview/{code}",
 					"target": [
 						"UserDetail",
 						"pruebaHijo"
