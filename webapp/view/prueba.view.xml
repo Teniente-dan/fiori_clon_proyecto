@@ -3,13 +3,22 @@
 	xmlns="sap.m" 
 	controllerName="com.dudev.ProjectManagement.controller.prueba"
 	xmlns:html="http://www.w3.org/1999/xhtml">
-	<App>
-		<pages>
-			<Page title="Title">
+			<Page title="Multi Base"
+				  id="PruebaParent"
+				  showNavButton="true"
+			      navButtonPress=".onNavBack"
+				class="sapUiResponsiveContentPadding">
 				<content>
-					<Text text="New view"></Text>
+					<!--<Text text="New view"></Text>-->
 				</content>
 			</Page>
-		</pages>
-	</App>
+			<!--<Page title="MultiBase"-->
+			<!--	  id="PruebaParent1"-->
+			<!--	  showNavButton="true"-->
+			<!--      navButtonPress=".onNavBack"-->
+			<!--	class="sapUiResponsiveContentPadding">-->
+			<!--	<content>-->
+					<!--<Text text="New view"></Text>-->
+			<!--	</content>-->
+			<!--</Page>-->
 </mvc:View>

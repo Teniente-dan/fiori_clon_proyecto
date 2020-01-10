@@ -1,5 +1,8 @@
-<mvc:View controllerName="com.dudev.ProjectManagement.controller.UserList" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns:f="sap.f"
+<mvc:View controllerName="com.dudev.ProjectManagement.controller.UserList" xmlns:mvc="sap.ui.core.mvc" 
+displayBlock="true"
+xmlns:f="sap.f"
 	xmlns:l="sap.ui.layout" xmlns:dv="com.dudev.ProjectManagement.control" xmlns:tab="sap.ui.table" xmlns="sap.m">
+		
 	<Page id="page" title="{i18n>title}">
 		<content>
 			<Panel headerText="{i18n>panelHeader}" class="sapUiResponsiveMargin" width="auto">

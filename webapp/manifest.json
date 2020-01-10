@@ -90,7 +90,7 @@
 					"name": "listRoute",
 					"pattern": "",
 					"target": [
-						"List" 
+						"List"
 					]
 				},
 				{
@@ -99,7 +99,14 @@
 					"target": [
 						"UserDetail"
 					]
-					
+				},
+				{
+					"name": "pruebaMulti",
+					"pattern": "prueba/multiview",
+					"target": [
+						"UserDetail",
+						"pruebaHijo"
+					]
 				}
 			],
 			"targets": {
@@ -116,10 +123,26 @@
 					"clearControlAggregation": false,
 					"viewName": "UserList"
 				},
-				"UserDetail": {
+				"Prueba": {
+					"viewName": "prueba",
+					"viewId": "pruebaMulti",
+					"viewLevel": 1
+				},
+				"pruebaHijo": {
+					"viewName": "pruebaHijo",
 					"viewType": "XML",
 					"transition": "slide",
-					"viewName": "UserDetail"
+					"controlId": "PruebaParent",
+					"parent": "Prueba",
+					"controlAggregation": "content"
+				},
+				"UserDetail": {
+					"viewName": "UserDetail",
+					"viewType": "XML",
+					"transition": "slide",
+					"controlId": "PruebaParent",
+					"parent": "Prueba",
+					"controlAggregation": "content"
 				}
 			}
 		}
